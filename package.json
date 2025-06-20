@@ -1,0 +1,8 @@
+{
+  "name": "curriculum-vitae",
+  "scripts": {
+    "build:pdf":  "resume export docs/resume.pdf --theme macchiato",
+    "build:html": "resume export docs/index.html --format html --theme macchiato"
+  },
+  "dependencies": {}
+}
