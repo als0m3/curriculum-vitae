@@ -11,37 +11,26 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
-      - name: Installer JSON Resume CLI
-        run: npm install -g resume-cli
+      - name: Install dependencies
+        run: npm install
 
-      - name: Générer PDF & HTML
+      - name: Create docs directory
+        run: mkdir -p docs
+
+      - name: Generate PDF & HTML
         run: |
-          mkdir -p docs
-          resume export docs/resume.pdf --theme macchiato
-          resume export docs/index.html --format html --theme macchiato
+          npx resume export docs/resume.pdf --theme macchiato
+          npx resume export docs/index.html --format html --theme macchiato
 
-      - name: Commit & push sur gh-pages
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B gh-pages
-          git add docs/
-          git commit -m "📄 Mise à jour automatique du CV"
-          git push -f origin gh-pages
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Déployer sur GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
