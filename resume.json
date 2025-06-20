@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Développeur Full-Stack",
+    "image": "",
+    "email": "john.doe@example.com",
+    "phone": "+33 6 12 34 56 78",
+    "url": "https://johndoe.dev",
+    "summary": "Passionné par le développement web et les architectures scalable. 5 ans d’expérience en startups et grandes entreprises.",
+    "location": {
+      "address": "123 Rue Exemple",
+      "postalCode": "75001",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "Île-de-France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "johndoe",
+        "url": "https://www.linkedin.com/in/johndoe"
+      },
+      {
+        "network": "GitHub",
+        "username": "johndoe",
+        "url": "https://github.com/johndoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Entreprise Exemple",
+      "position": "Ingénieur Logiciel",
+      "website": "https://exemple.com",
+      "startDate": "2022-01-01",
+      "endDate": "2025-06-01",
+      "summary": "Développement d’applications web en React et Node.js.",
+      "highlights": [
+        "Implémentation d’une API REST scalable",
+        "Optimisation des performances front-end de 30 %"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université Exemple",
+      "area": "Informatique",
+      "studyType": "Master",
+      "startDate": "2018-09-01",
+      "endDate": "2020-06-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Langages de programmation",
+      "level": "Intermédiaire",
+      "keywords": ["JavaScript", "TypeScript", "Python", "Java"]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Intermédiaire",
+      "keywords": ["React", "Node.js", "Express", "Django"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Professionnel"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Disponible sur demande."
+    }
+  ]
+}
