@@ -1,8 +1,14 @@
+
 {
   "name": "curriculum-vitae",
   "scripts": {
-    "build:pdf":  "resume export docs/resume.pdf --theme macchiato",
-    "build:html": "resume export docs/index.html --format html --theme macchiato"
+    "build:pdf":  "resume export docs/resume.pdf --theme elegant",
+    "build:html": "resume export docs/index.html --format html --theme elegant"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.13.0"
+  },
+  "devDependencies": {
+    "resume-cli": "^3.0.8"
+  }
 }
