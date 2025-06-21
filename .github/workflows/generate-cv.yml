@@ -35,8 +35,8 @@ jobs:
 
       - name: Generate PDF & HTML
         run: |
-          npx resume export docs/resume.pdf --theme macchiato
-          npx resume export docs/index.html --format html --theme macchiato
+          npx resume export docs/resume.pdf --theme elegant
+          npx resume export docs/index.html --format html --theme elegant
           touch docs/.nojekyll
 
       - name: List generated files
