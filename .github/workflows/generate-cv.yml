@@ -17,7 +17,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
@@ -35,8 +35,8 @@ jobs:
 
       - name: Generate PDF & HTML
         run: |
-          npx resume export docs/resume.pdf --theme elegant
-          npx resume export docs/index.html --format html --theme elegant
+          npx resume export docs/resume.pdf --theme engineering-leader
+          npx resume export docs/index.html --format html --theme engineering-leader
           touch docs/.nojekyll
 
       - name: List generated files
@@ -48,7 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: "./docs"
 
       - name: Deploy to GitHub Pages
         id: deployment

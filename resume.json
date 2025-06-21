@@ -1,83 +1,234 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Développeur Full-Stack",
-    "image": "",
-    "email": "john.doe@example.com",
-    "phone": "+33 6 12 34 56 78",
-    "url": "https://johndoe.dev",
-    "summary": "Passionné par le développement web et les architectures scalable. 5 ans d’expérience en startups et grandes entreprises.",
+    "name": "Richard<br>Hendriks",
+    "label": "Programmer",
+    "picture": "https://vignette.wikia.nocookie.net/silicon-valley/images/3/33/Richard_Hendricks.jpg",
+    "email": "richard.hendriks@piedpiper.com",
+    "phone": "(912) 555-4321",
+    "website": "http://piedpiper.com",
+    "summary": "<p>Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer.</p><p>While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!</p>",
     "location": {
-      "address": "123 Rue Exemple",
-      "postalCode": "75001",
-      "city": "Paris",
-      "countryCode": "FR",
-      "region": "Île-de-France"
+      "address": "Newell Road",
+      "postalCode": "94303",
+      "city": "Palo Alto",
+      "countryCode": "US",
+      "region": "CA"
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "johndoe",
-        "url": "https://www.linkedin.com/in/johndoe"
+        "network": "Youtube",
+        "username": "HBO",
+        "url": "https://youtube.com/user/HBO"
       },
       {
-        "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "network": "Linkedin",
+        "username": "richardhendricks84",
+        "url": "https://www.linkedin.com/in/richardhendricks84"
+      },
+      {
+        "network": "Vimeo",
+        "username": "HBO",
+        "url": "https://vimeo.com/user/HBO"
+      },
+      {
+        "network": "Facebook",
+        "username": "SiliconHBO",
+        "url": "https://facebook.com/SiliconHBO"
+      },
+      {
+        "network": "Instagram",
+        "username": "siliconhbo",
+        "url": "https://instagram.com/siliconhbo"
+      },
+      {
+        "network": "Tumblr",
+        "username": "hbo",
+        "url": "http://hbo.tumblr.com/"
+      },
+      {
+        "network": "Pinterest",
+        "username": "siliconhbo",
+        "url": "https://pinterest.com/siliconhbo"
+      },
+      {
+        "network": "Dribbble",
+        "username": "hbo",
+        "url": "http://dribbble.com/silicon-valley"
+      },
+      {
+        "network": "Xing",
+        "username": "hbo",
+        "url": "http://xing.com/silicon-valley"
+      },
+      {
+        "network": "Github",
+        "username": "hbo",
+        "url": "http://github.com/silicon-valley"
+      },
+      {
+        "network": "Bitbucket",
+        "username": "hbo",
+        "url": "http://bitbucket.org/silicon-valley"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "hbo",
+        "url": "http://stackoverflow.com/silicon-valley"
+      },
+      {
+        "network": "Skype",
+        "username": "hbo",
+        "url": "@hbo"
       }
     ]
   },
   "work": [
+    [
+      {
+        "company": "Pied Piper",
+        "logo": "https://ih0.redbubble.net/image.538431154.1686/ap,550x550,12x12,1,transparent,t.u2.png",
+        "position": "CEO",
+        "website": "http://piedpiper.com",
+        "startDate": "2016-07-01",
+        "summary": "<ul><li>Grow the company to more than 1K employees and achieved Seried D round and a final exit of 2B$ dollars.</li><li>Partner with multiple providers which helped growing sales a 50%</li></ul>",
+        "highlights": ["Management", "Agile", "Sales"]
+      },
+      {
+        "company": "Pied Piper",
+        "logo": "https://ih0.redbubble.net/image.538431154.1686/ap,550x550,12x12,1,transparent,t.u2.png",
+        "position": "CTO",
+        "website": "http://piedpiper.com",
+        "startDate": "2014-04-13",
+        "endDate": "2016-07-01",
+        "summary": "<ul><li>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</li></ul>",
+        "highlights": [
+          "PHPUnit",
+          "ElasticSearch",
+          "Symfony",
+          "Java",
+          "iOS",
+          "Scrum",
+          "PostgreSQL",
+          "MongoDB",
+          "Tabs"
+        ]
+      }
+    ],
     {
-      "company": "Entreprise Exemple",
-      "position": "Ingénieur Logiciel",
-      "website": "https://exemple.com",
-      "startDate": "2022-01-01",
-      "endDate": "2025-06-01",
-      "summary": "Développement d’applications web en React et Node.js.",
-      "highlights": [
-        "Implémentation d’une API REST scalable",
-        "Optimisation des performances front-end de 30 %"
-      ]
+      "company": "Hooli",
+      "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/022018/hooli.jpg?g0WbCOl20sZupevIewoHqF5g3uC9ZNCP&itok=09Zgymrh",
+      "position": "Senior Software Engineer",
+      "website": "http://www.hooli.xyz/",
+      "startDate": "2013-01-01",
+      "endDate": "2014-04-06",
+      "summary": "Worked on optimizing the backend algorithms for Hooli",
+      "highlights": ["Python", "AWS", "Django"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "logo": "https://pbs.twimg.com/profile_images/378800000426619448/ad669ea2b28bfbb7087958e0f398c97e_400x400.png",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": ["Awarded 'Teacher of the Month'", "Best algorythm"]
     }
   ],
   "education": [
     {
-      "institution": "Université Exemple",
-      "area": "Informatique",
-      "studyType": "Master",
-      "startDate": "2018-09-01",
-      "endDate": "2020-06-01",
-      "gpa": "",
-      "courses": []
+      "institution": "Stanford",
+      "logo": "https://identity.stanford.edu/img/SU_SealColor_web9.png",
+      "area": "Computer Science",
+      "studyType": "B.S",
+      "startDate": "2009-06-01",
+      "endDate": "2012-12-30",
+      "gpa": "GPA 4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction",
+        "MA2010 - Advanced Algorythms"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "logo": "https://logosave.com/images/large/common/02/techcrunch.png",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "Digital Compression Pioneer Award",
+      "logo": "https://logosave.com/images/large/common/02/techcrunch.png",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
     {
-      "name": "Langages de programmation",
-      "level": "Intermédiaire",
-      "keywords": ["JavaScript", "TypeScript", "Python", "Java"]
+      "name": "Web Development",
+      "level": "5",
+      "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
-      "name": "Frameworks",
-      "level": "Intermédiaire",
-      "keywords": ["React", "Node.js", "Express", "Django"]
+      "name": "Compression",
+      "level": "5",
+      "keywords": ["Mpeg", "MP4", "GIF"]
     }
   ],
   "languages": [
     {
-      "language": "Français",
-      "fluency": "Langue maternelle"
+      "name": "english",
+      "level": "Native"
     },
     {
-      "language": "Anglais",
-      "fluency": "Professionnel"
+      "name": "german",
+      "level": "Basic"
+    },
+    {
+      "name": "spanish",
+      "level": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    },
+    {
+      "name": "Tech",
+      "keywords": ["Tabs"]
     }
   ],
   "references": [
     {
-      "name": "Jane Smith",
-      "reference": "Disponible sur demande."
+      "name": "Erlich Bachman",
+      "position": "COO @ Pied Piper",
+      "date": "2015-02-01",
+      "picture": "https://pbs.twimg.com/profile_images/461277151514222593/xYCOja56_400x400.jpeg",
+      "reference": "It is my pleasure to recommend Richard. That is all."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Proffesional Cloud Developer",
+      "logo": "https://s3.amazonaws.com/heysummit-production/media/thumbnails/uploads/events/bluoodigital-spring-chatbot-summit/nVRuKvWJSJ5ZjketvccFbe_square_large.png",
+      "date": "2016-11-01",
+      "awarder": "Google"
     }
   ]
 }
