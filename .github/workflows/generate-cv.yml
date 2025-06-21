@@ -37,6 +37,7 @@ jobs:
         run: |
           npx resume export docs/resume.pdf --theme macchiato
           npx resume export docs/index.html --format html --theme macchiato
+          touch docs/.nojekyll
 
       - name: List generated files
         run: ls -la docs/
