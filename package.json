@@ -1,13 +1,8 @@
 {
   "name": "curriculum-vitae",
+  "private": true,
   "scripts": {
-    "build:pdf": "resume export docs/resume.pdf --theme engineering-leader",
-    "build:html": "resume export docs/index.html --format html --theme engineering-leader"
-  },
-  "dependencies": {
-    "jsonresume-theme-engineering-leader": "^1.0.29"
-  },
-  "devDependencies": {
-    "resume-cli": "^3.0.8"
+    "build": "python3 scripts/build.py",
+    "build:html": "python3 scripts/build.py"
   }
 }
