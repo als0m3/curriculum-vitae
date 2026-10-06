@@ -4,5 +4,4 @@ dist/
 .DS_Store
 
 docs/
-
-package-lock.json
+__pycache__/
